@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&family=Bellefair&family=Barlow:wght@400;700&display=swap"
+      rel="stylesheet">
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="contacts.css">
+
+    <!-- custom js -->
+    <script src="script.js" defer></script>
+
+    <link rel="icon" href="./icons/logo-0.png" type="icon">
+    <title> | Contact Us</title>
+</head>
+<body>
+
+    <!-- 
+    ============================
+         header & navigation
+    ============================
+     -->
+     <div class="nav-call-us flex"> 
+        <img src="./icons/phone-w.png" alt="call us button" class="call-us-icon">
+        <a href="tel:+250789700612" class="phone-number text-light">+250-78-9700-612</a>
+    </div>
+
+    <header class="primary-header flex bg-dark">
+        <div class="nav-container flex container">
+            <!-- ======= 1. site-logo ======= -->
+            <div class="site-logo flow">
+                <a href="index.html" class="text-light"><img class="logo" src="./icons/logo-0.png" alt="site logo"></a>
+                <span class="text-light fs-300 fw-600 text-center">KENGNE EMPIRE LTD</span>
+            </div>
+
+            <!-- navigation buttons -->
+            <button class="mobile-nav-toggle" aria-controls="primary-navigation"><span class="sr-only" aria-expanded="false">Menu</span></button>
+
+            <!-- ======= 2. Navigation Bar ===== -->
+            <nav>
+                <ul id ="primary-navigation" data-visible="false" class="primary-navigation underline-indicators flex">
+                    <li><a href="index.html" class="text-white ff-sans-cond uppercase letter-spacing-3 fs-400">home</a></li>
+                    <li><a href="products.html" class="text-light ff-sans-cond uppercase letter-spacing-3 fs-400">gallery</a></li>
+                    <li><a href="about.html" class="text-light ff-sans-cond uppercase letter-spacing-3 fs-400">about</a></li>
+                    <li class="active"><a href="contacts.html" class="text-light ff-sans-cond uppercase letter-spacing-3 fs-400">contacts</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="flex">
+        <div class="contacts-container">
+            <aside class="contacts-info flex bg-dark">
+                <div class="flow">
+                    <h2 class="fs-500 fw-500">Contact Info</h2>
+                    <ul class="info flow">
+                        <li class="flex">
+                            <span><img src="./icons/phone-w.png" alt="our phone number"></span>
+                            <span class="capitalize text-light">+250-78-4053-021<br>+250-78-9700-612</span>
+                        </li>
+                        <li class="flex">
+                            <span><img src="./icons/email.png" alt="our email"></span>
+                            <span class="capitalize text-light">kengneempire@gmail.com</span>
+                        </li>
+                        <li class="flex">
+                            <span><img src="./icons/location.png" alt="our location"></span>
+                            <span class="capitalize text-light">Kigali, Rwanda</span>
+                        </li>
+                    </ul>
+                </div>
+                <ul class="sci flex">
+                    <li><a href="#"><img class="icon" src="./icons/twitter-w.png"></a></li>
+                    <li><a href="#"><img class="icon" src="./icons/linkedin-w.png"></a></li>
+                    <li><a href="#"><img class="icon" src="./icons/instagram-w.png"></a></li>
+                    <li><a href="#"><img class="icon" src="./icons/facebook-w.png"></a></li>
+                </ul>
+            </aside>
+            <form action="https://formspree.io/f/xwkyjrvr"  method="POST" class="contacts-form flow">
+                <h2 class="fs-500 text-dark">Reach to Us</h2>
+                <div class="form-box">
+                    <div class="input-box w50">
+                        <input type="text" name="First name" required>
+                        <span class="text-accent capitalize">first name</span>
+                    </div>
+                    <div class="input-box w50">
+                        <input type="text" name="last name" required>
+                        <span class="text-accent capitalize">last name</span>
+                    </div>
+                    <div class="input-box w50">
+                        <input type="email" name="email address" required>
+                        <span class="text-accent capitalize">email address</span>
+                    </div>
+                    <div class="input-box w50">
+                        <input type="text" name="phone number" required>
+                        <span class="text-accent capitalize">phone number</span>
+                    </div>
+                    <div class="input-box w100">
+                        <textarea name="message" required></textarea>
+                        <span class="text-accent capitalize">Write your meassage here... </span>
+                    </div>
+                    <div class="input-box">
+                        <button type="submit">Send</button>
+                    </div>
+                </div>
+            </form> 
+        </div>
+    </section>
+
+    
+    <!-- 
+    ============================
+           footer section
+    ============================
+     -->
+     <footer class="bg-dark flow">
+        <h1 class="uppercase fs-500 ff-sans text-center letter-spacing-1 d-block">kengne empire ltd</h1>
+        <div class="container">            
+            <div class="footer-container grid">
+                <div class="mission flow">
+                    <h2 class="fs-600 ff-serif capitalize letter-spacing-3 text-center">our mission</h2>
+                    <p class="text-light text-center">
+                        The mission is to become the leading provider of agricultural products to the manufacturing industry. This will be accomplished by providing quality fruits and vegetables at fair prices while exceeding customer's expectations.
+                    </p>
+                </div>
+                <div class="flow">
+                    <h2 class="fs-600 ff-serif capitalize letter-spacing-3 text-center">contacts</h2>
+                    <div class="contacts-body flex">
+                        <a href="tel:+250784053021" target="_blank"class="text-light flex fs-300"><span><img class="icon" src="./icons/phone-w.png" alt="call us button"></span>+250-78-4053-021<br>+250-78-9700-612</a>
+                        <a href="kengneempire@gmail.com" target="_blank" class="text-light flex fs-300"><span><img class="icon" src="./icons/email.png" alt="mail us button"></span>kengneempire@gmail.com</a>
+                        <a href="google.com/KG-317St, kigali Rwanda" target="_blank" class="text-light flex fs-300"><span><img class="icon" src="./icons/location.png" alt="find us button"></span>KG-317St, kigali Rwanda</a>
+                    </div>
+                </div>
+            </div>
+            <ul class="flex">
+                <li><a class="text-light capitalize undecorated-link" href="https://twitter.com/kengneempire?s=11&t=N43plXrMT9G4nvqRCVfA0g"><span><img class="icon" src="./icons/twitter-w.png" alt="twitter icons"></span></a></li>
+                <li><a class="text-light capitalize undecorated-link" href="https://linkedin.com/in/kengne-empire-limited-032214212"><span><img class="icon" src="./icons/linkedin-w.png" alt="linkedIn icon"></span></a></li>
+                <li><a class="text-light capitalize undecorated-link" href="https://instagram.com/santidads?r=nametag"><span><img class="icon" src="./icons/instagram-w.png" alt="instagram icon"></span></a></li>
+            </ul>
+        </div>
+        <small class="text-center capitalize d-block fs-300">2022 &copy; kengne empire ltd all rights reserved</small>
+        
+    </footer>
+    
+</body>
+</html>

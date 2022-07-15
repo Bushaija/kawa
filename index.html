@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&family=Bellefair&family=Barlow:wght@400;700&display=swap"
+      rel="stylesheet">
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- custom js -->
+    <script src="script.js" defer></script>
+
+    <link rel="icon" href="./icons/logo-0.png" type="icon">
+    <title> | Home </title>
+</head>
+<body >
+    <!-- 
+    ============================
+        header & navigation
+    ============================
+     -->
+    <div class="nav-call-us flex"> 
+        <img src="./icons/phone-w.png" alt="call us button" class="call-us-icon">
+        <a href="tel:+250789700612" class="phone-number text-light">+250-78-9700-612</a>
+    </div>
+
+    <header class="primary-header flex bg-dark">
+        <div class="nav-container flex container">
+            <!-- ======= 1. site-logo ======= -->
+            <div class="site-logo flow">
+                <a href="index.html" class="text-light"><img class="logo" src="./icons/logo-0.png" alt="site logo"></a>
+                <span class="text-light text-center">KENGNE EMPIRE LTD</span>
+            </div>
+
+            <!-- navigation buttons -->
+            <button class="mobile-nav-toggle" aria-controls="primary-navigation">
+                <span class="sr-only" aria-expanded="false">Menu</span>
+            </button>
+            
+            <!-- ======= 2. Navigation Bar ===== -->
+            <nav>
+                <ul id ="primary-navigation" data-visible="false" class="primary-navigation underline-indicators flex">
+                    <li class ="active"><a href="index.html" class="text-white ff-sans-cond uppercase letter-spacing-3 fs-400">home</a></li>
+                    <li><a href="products.html" class="text-light ff-sans-cond uppercase letter-spacing-3 fs-400">gallery</a></li>
+                    <li><a href="about.html" class="text-light ff-sans-cond uppercase letter-spacing-3 fs-400">about</a></li>
+                    <li><a href="contacts.html" class="text-light ff-sans-cond uppercase letter-spacing-3 fs-400">contacts</a></li>
+                </ul>
+            </nav>
+        </div>
+            
+        <!---- ====== site-slogan ======== -->
+        <p class="slogan fs-500 text-light text-center letter-spacing-3">
+            Quality means <span class="text-secondary capitalize">doing it right,</span class><br>even when <span class="text-secondary capitalize">no one is watching.</span> 
+        </p>
+    </header>
+
+
+
+     <!-- 
+    ============================
+          Fruits Section
+    ============================
+     -->
+     <main class="fruits-box flow flex container">
+        <div>
+            <h2 class="text-dark capitalize ff-serif">Lorem, ipsum iolor<span class="sub-title ff-sans-normal text-accent lowercase d-block fs-500">Quis similique corporis.</span></h2>
+    
+            <p class="fruits-content text-body ff-sans-normal fs-400 fw-300">The world's population continues to grow. According to the UN, the current population is estimated at 7.7 billion.<span class="text-accent" style="text-decoration: underline;">In 10 years we will reach 8.5 billion and 10 billion by 2050. </span>But then, despite this rise in birth rate, we still lack flagship solutions today to boost the agricultural sector. In order to be able to guarantee a production and distribution of products that can satisfy the entire world population.</p>
+    
+            <a href="about.html" class="green-btn bg-dark text-light uppercase">read more</a>
+        </div>
+
+        <div class="fruits-img">
+            <img src="./images/combined-fuits-unmasked.png" alt="banana, avocado, and passion fruits">
+        </div>
+     </main>
+
+     <!-- 
+    ============================
+          Vegies Section
+    ============================
+     -->
+
+     <section class="veg-box flow flex container">
+        <div class="flow">
+            <h2 class="text-dark capitalize ff-serif">Lorem, ipsum iolor<span class="sub-title ff-sans-normal text-accent lowercase d-block fs-500">Quis similique corporis.</span></h2>
+    
+            <p class="veg-content text-body ff-sans-normal">Africa, which is not only a strong point today in terms of agricultural development, but also the continent with the greatest growth demographic. Indeed, the number of births and the number of people constantly raises on our planet which is today a problem that challenges and worries all states. <span class="text-accent" style="text-decoration: underline;">But who says population growth, also says increase in the consumption rate of the population.</span></p>
+    
+            <a href="about.html" class="green-btn bg-dark text-light uppercase">read more</a>
+        </div>
+
+        <div class="veg-img">
+            <img src="./images/veg-img.png" alt="white eggplants, okra, and greenchili">
+        </div>
+     </section>
+
+     <!-- 
+    ============================
+          Products section
+    ============================
+     -->
+    <section class="bg-accent flow large-padding">
+       <h2 class="capitalize text-center text-light fs-600">our products</h2>
+       <div class="media-scroller">
+           <div class="card grid bg-light flow media-element">
+               <div class="image-box_card">
+                    <span class="overlay"></span>
+                    <div class="card-image">
+                        <img src="./images/avocado.jpg">
+                    </div>
+               </div>
+               <div class="card-body text-light bg-light">
+                    <p class="text-dark fs-400 fw-600 letter-spacing-3 text-center capitalize">avocado</p>
+                    <p class="text-center text-dark fs-400 fw-300">Avocados are a  <span class="text-accent" style="text-decoration: underline;"> source of vitamins C, E, K, and B6,</span>  as well as riboflavin, niacin, folate, pantothenic acid, magnesium, and potassium.</p>
+               </div>
+           </div>
+
+
+           <div class="card grid bg-light flow media-element">
+                <div class="image-box_card">
+                    <span class="overlay"></span>
+                    <div class="card-image">
+                        <img src="./images/White-Eggplant.png">
+                    </div>
+                </div>
+                <div class="card-body text-light bg-light">
+                    <p class="text-dark fs-400 fw-600 letter-spacing-3 text-center capitalize">white eggplants</p>
+                    <p class="text-center text-dark fs-400 fw-300">This African variety has a delicious and slightly bitter flavor. The fruit are versatile and can be eaten raw, boiled, sautéed, or in soups.</p>
+                </div>
+            </div>
+
+            <div class="card grid bg-light flow media-element">
+                <div class="image-box_card">
+                    <span class="overlay"></span>
+                    <div class="card-image">
+                        <img src="./images/greenChilli.jpg">
+                    </div>
+                </div>
+                <div class="card-body text-light bg-light">
+                    <p class="text-dark fs-400 fw-600 letter-spacing-3 text-center capitalize">green chilli</p>
+                    <p class="text-center text-dark fs-400 fw-300">The essential components in bird's eye chili provide various health benefits like it helps in reducing blood pressure and cholesterol.</p>
+                </div>
+            </div>
+
+            <div class="card grid bg-light flow media-element">
+                <div class="image-box_card">
+                    <span class="overlay"></span>
+                    <div class="card-image">
+                        <img src="./images/passion-card-profile.png">
+                    </div>
+                </div>
+                <div class="card-body text-light bg-light">
+                    <p class="text-dark fs-400 fw-600 letter-spacing-3 text-center capitalize">passion fruits</p>
+                    <p class="text-center text-dark fs-400 fw-300"><span class="text-accent" style="text-decoration: underline;">Full of this antioxidant.</span> Our body uses it to make blood vessels, cartilage, muscles, and collagen, which keeps skin looking young.</p>
+                </div>
+            </div>
+
+            <div class="card grid bg-light flow media-element">
+                <div class="image-box_card">
+                    <span class="overlay"></span>
+                    <div class="card-image">
+                        <img src="./images/okra-card-profile.jpg">
+                    </div>
+                </div>
+                <div class="card-body text-light bg-light">
+                    <p class="text-dark fs-400 fw-600 letter-spacing-3 text-center capitalize">okra</p>
+                    <p class="text-center text-dark fs-400 fw-300">Okra is <span class="text-accent" style="text-decoration: underline;">rich in vitamin K</span>  which helps your body clot blood. It's rich in magnesium, folate, fiber, antioxidants, and vitamin C, K1, and A.</p>
+                </div>
+            </div>
+
+            <div class="card grid bg-light flow media-element">
+                <div class="image-box_card">
+                    <span class="overlay"></span>
+                    <div class="card-image">
+                        <img src="./images/redHotChilli.png">
+                    </div>
+                </div>
+                <div class="card-body text-light bg-light">
+                    <p class="text-dark fs-400 fw-600 letter-spacing-3 text-center capitalize">red hot chili</p>
+                    <p class="text-center text-dark fs-400 fw-300">Red chili pepper is pack in bags of 25kg and 50kg. Drying the chili pepper enables a longer lifespan of the products.</p>
+                </div>
+            </div>
+
+            <div class="card grid bg-light flow media-element">
+                <div class="image-box_card">
+                    <span class="overlay"></span>
+                    <div class="card-image">
+                        <img src="./images/habanero(1).png">
+                    </div>
+                </div>
+                <div class="card-body text-light bg-light">
+                    <p class="text-dark fs-400 fw-600 letter-spacing-3 text-center capitalize">habarero</p>
+                    <p class="text-center text-dark fs-400 fw-300">The intake of these habanero may, <span class="text-accent" style="text-decoration: underline;"> reduce cancer risk, aid weight loss, lower cholesterol levels, prevent cardiovascular disease.  </span></p>
+                </div>
+            </div>
+
+            <div class="card grid bg-light flow media-element">
+                <div class="image-box_card">
+                    <span class="overlay"></span>
+                    <div class="card-image">
+                        <img src="./images/banana.jpg">
+                    </div>
+                </div>
+                <div class="card-body text-light bg-light">
+                    <p class="text-dark fs-400 fw-600 letter-spacing-3 text-center capitalize">banana</p>
+                    <p class="text-center text-dark fs-400 fw-300"><span class="text-accent" style="text-decoration: underline;">Rich in Vitamin C, potassium, magnesium and choline.</span></p>
+                </div>
+           </div>
+       </div>
+    </section>
+
+     <!-- 
+    ============================
+        meet our team section
+    ============================
+     -->
+     <section class="flow container bg-light">
+        <h2 class="capitalize text-accent text-center" style="padding-top: 2em;">meet our team</h2>
+        <div class="team-container large-padding">
+            <article class="team-member">
+                <div class="team-member_image">
+                    <img src="./images/mara-1.png" alt="Timo photo">
+                </div>
+                <div class="team-member_info">
+                    <p class="text-center fw-600 text-accent">KENGNE Timo Jr</p>
+                    <p class="status fs-300 letter-spacing-3 text-accent">CO-FOUNDER</p>
+                </div>
+                <div class="team-member_socials flex">
+                    <a href="https://instagram.com/monero_jr?r-nametag" target="_blank">
+                        <img src="./icons/twitter-ch.png" alt="twitter handle">
+                    </a>
+                    <a href="https://linkedin.com/in/kengne-empire-limited-032214212" target="_blank">
+                        <img src="./icons/linkedin-ch.png" alt="linkedIn handle">
+                    </a>
+                    <a href="https://instagram.com/monero_jr?r-nametag" target="_blank">
+                        <img src="./icons/instagram-ch.png" alt="instagram handle">
+                    </a>
+                </div>
+            </article>
+
+            <article class="team-member">
+                <div class="team-member_image">
+                    <img src="./images/riwa.jpg" alt="klinsman photo">
+                </div>
+                <div class="team-member_info">
+                    <p class="capitalize text-center fw-600 text-accent ">KENGNE klinsman</p>
+                    <p class="status fs-300 letter-spacing-2">CO-FOUNDER</p>
+                </div>
+                <div class="team-member_socials">
+                    <a class="" href="#" target="_blank">
+                        <img src="./icons/twitter-ch.png" alt="twitter handle">
+                    </a>
+                    <a class="" href="#" target="_blank">
+                        <img src="./icons/linkedin-ch.png" alt="twitter handle">
+                    </a>
+                    <a class="" href="#" target="_blank">
+                        <img src="./icons/instagram-ch.png" alt="twitter handle">
+                    </a>
+                </div>
+            </article>
+
+        </div>
+   </section>
+
+
+     <!-- 
+    ============================
+           footer section
+    ============================
+     -->
+     <footer class="bg-dark flow">
+        <h1 class="uppercase fs-500 ff-sans text-center letter-spacing-1 d-block">kengne empire ltd</h1>
+        <div class="container">            
+            <div class="footer-container grid">
+                <div class="mission flow">
+                    <h2 class="fs-600 ff-serif capitalize letter-spacing-3 text-center">our mission</h2>
+                    <p class="text-light text-center">
+                        The mission is to become the leading provider of agricultural products to the manufacturing industry. This will be accomplished by providing quality fruits and vegetables at fair prices while exceeding customer's expectations.
+                    </p>
+                </div>
+                <div class="flow">
+                    <h2 class="fs-600 ff-serif capitalize letter-spacing-3 text-center">contacts</h2>
+                    <div class="contacts-body flex">
+                        <a href="tel:+250784053021" target="_blank"class="text-light flex fs-300"><span><img class="icon" src="./icons/phone-w.png" alt="call us button"></span>+250-78-4053-021<br>+250-78-9700-612</a>
+                        <a href="kengneempire@gmail.com" target="_blank" class="text-light flex fs-300"><span><img class="icon" src="./icons/email.png" alt="mail us button"></span>kengneempire@gmail.com</a>
+                        <a href="google.com/KG-317St, kigali Rwanda" target="_blank" class="text-light flex fs-300"><span><img class="icon" src="./icons/location.png" alt="find us button"></span>KG-317St, kigali Rwanda</a>
+                    </div>
+                </div>
+            </div>
+            <ul class="flex">
+                <li><a class="text-light capitalize undecorated-link" href="https://twitter.com/kengneempire?s=11&t=N43plXrMT9G4nvqRCVfA0g"><span><img class="icon" src="./icons/twitter-w.png" alt="twitter icons"></span></a></li>
+                <li><a class="text-light capitalize undecorated-link" href="https://linkedin.com/in/kengne-empire-limited-032214212"><span><img class="icon" src="./icons/linkedin-w.png" alt="linkedIn icon"></span></a></li>
+                <li><a class="text-light capitalize undecorated-link" href="https://instagram.com/santidads?r=nametag"><span><img class="icon" src="./icons/instagram-w.png" alt="instagram icon"></span></a></li>
+            </ul>
+        </div>
+        <small class="text-center capitalize d-block fs-300">2022 &copy; kengne empire ltd all rights reserved</small>
+        
+    </footer>
+</body>
+</html>
